@@ -1,3 +1,6 @@
 QUnit.test( "hello test", function( assert ) {
-  assert.ok( 1 == "1", "Passed!" );
+  let number = 3;
+  let expected = "FIZZ";
+  let actual = fizzBuzz(number)
+  assert.equal(actual,expected, "Passed!" );
 });
